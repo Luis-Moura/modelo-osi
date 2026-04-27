@@ -1,2 +1,3 @@
-Respostas da atividade do capítulo 1: Redes de computadores
+## Respostas da atividade do capítulo 1: Redes de computadores
+
 37. Escreva um programa que implemente o fluxo de mensagens da camada superior até a camada inferior do modelo de protocolo de sete camadas. Seu programa deverá incluir uma função de protocolo separada para cada camada. Os cabeçalhos de protocolo são sequências de até 64 caracteres. Cada função do protocolo tem dois parâmetros: uma mensagem passada do protocolo da camada mais alta (um char buffer) e o tamanho da mensagem. Essa função conecta seu cabeçalho na frente da mensagem, imprime a nova mensagem na saída-padrão e depois chama a função do protocolo da camada inferior. A entrada do programa é uma mensagem de aplicação (uma sequência de 80 caracteres ou menos).
